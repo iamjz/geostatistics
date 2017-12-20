@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Missouri Dept of Elementary and Secondary Education - geocoded by DHSS</origin>
+				<pubdate>November 2010</pubdate>
+				<title Sync="TRUE">schoolPublic</title>
+				<edition>8</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+				<pubplace>Jefferson City, MO</pubplace>
+				<publish>Missouri Department of Elementary and Secondary Education</publish>
+				</pubinfo>
+				<othercit>
+Original data provided by Missouri Department of Elementary and Secondary Education -
+http://www.dese.mo.gov/directory/download.html
+Originally geocoded using the Centrus Geocoder for ArcGIS.
+
+Some schools photo identified and placed by University of Missouri's Geographic Resource Center (GRC).
+
+February 2010 from data published 11/25/2009
+</othercit>
+				<onlink>ftp://msdis.missouri.edu/pub/state/st_school_public.zip</onlink>
+				<ftname Sync="TRUE">schoolPublic</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Schools for year 2009-2010</abstract>
+			<purpose>Missouri schools.  This layer currently includes public schools as provided by the Missouri Dept of Elementary and Secondary Education.</purpose>
+			<supplinf>
+Locations generated using Centrus Geocoder for ArcGIS from data provided by Missouri Dept of Elementary and Secondary Education from their web site (http://www.dese.mo.gov/directory/download.html)
+
+Quality Control by Geographic Resources Center (GRC) completed 10/13/2003 to adjust for false Geocoding results. (Geocoding points that were originally accurate to the ZIP code centroid.)
+
+PUBLIC SCHOOLS  updated 5/2004.  Locational updates provided by GEOGRAPHIC RESOURCE CENTER 6/24/2004
+
+New schools for year 2004-2005 placed using Centrus Geocoder for ArcGIS.
+
+5/9/2007 - schools closed since 2005-2006 were deleted.  Schools new for 2006-2007 were added by geocoding addresses with Centrus Geocoder for ArcGIS.  Enrollment for these new schools is "0" at the time of data layer creation.
+
+4/7/2008 - new schools for 2007-2008 school year added.  Several corrections to locations made to GRC work done in 2003.
+
+3/31/2009 - new schools for 2008-2009 added, any closed schools removed.  Locations of new schools photo identified if possible.
+
+2/5/2010 - new schools for 2009-2010 added, any closed schools removed.  Location of new schools photo identified if possible.
+
+NOTE:  Charter schools, which had been previously stored as a separate layer for 2008-09 school year are now included in this public school layers.
+
+10/2010:  Data was field verified in the Southeast region of Missouri by staff in the SEMO and Bootheel Regional Planning Commission (RPC) offices, and corrections were added to this file by Missouri State Emergency Management Agency GIS staff.  Data that has been field verified by these agencies has a value of "RPC" in the field "LocCode".
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2010</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-95.522797</westbc>
+				<eastbc Sync="TRUE">-89.148059</eastbc>
+				<northbc Sync="TRUE">40.565597</northbc>
+				<southbc Sync="TRUE">36.019052</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">286343.655831</leftbc><rightbc Sync="TRUE">826422.187915</rightbc><bottombc Sync="TRUE">3992133.406368</bottombc><topbc Sync="TRUE">4490536.000484</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>school</themekey>
+				<themekey>education</themekey>
+				<themekey>DESE</themekey>
+				<themekey>elementary</themekey>
+				<themekey>secondary</themekey>
+				<themekey>structure</themekey>
+			</theme>
+			<place>
+				<placekey>state of Missouri</placekey>
+			</place>
+			<temporal>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>none</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Alexis Gardner</cntper>
+					<cntorg>Missouri Department of Health and Senior Services</cntorg>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>920 Wildwood</address>
+					<address>PO Box 570</address>
+					<city>Jefferson City</city>
+					<state>MO</state>
+					<postal>65102-0570</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>573-522-8306</cntvoice>
+				<cntemail>alexis.gardner@oa.mo.gov</cntemail>
+				<hours>M-F 8-5:00</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<posacc>
+			<horizpa>
+				<horizpar>Matched to Missouri 1 meter Digital Ortho Quarter Quadrangles - 2004</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Excel data provided by program converted to Access table</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>School IDs (SCHID) from previous year (2005-2006) was used to determine which facilities were closed and which facilities were newly opened.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Table of new addresses was geocoded using Centrus Geocoder for ArcGIS; personal geodatabase file created</procdesc>
+				<procdate>May 2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Copy of 2006 public schools layer was created as a temp version.</procdesc>
+				<procdate>May 2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Facilities that had closed since last data update were delete from temp file.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>New addresses geocoded in previous step were appended to temp file.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Locations were checked against 2004 NAIP aerial photography to refine location</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc></procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Personal geodatabase is exported to shape file.</procdesc>
+				<procdate>April 2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata for 2006 public schools layer is exported to text.  Process steps are added.</procdesc>
+				<procdate>April 2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Shape file is copied from temporary workspace into facility directory located at DHSS as M:\GISDATA\FAcility.  Shape file from 2006 is renamed from schoolPub.shp to schoolPub06.shp.  File for 2007 is given the name schoolPub.shp in its place.</procdesc>
+				<procdate>April 2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Shape file is also copied into SDE for use in IMS sites.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>XLS file from DESE web site is downloaded.  File is imported into Microsoft Access.  School ID is created by concatenating district number and school number.  Fields are added for latitude/longitude and location code.  Latitude and Longitude from previous year's layer is transferred to new file using Access update query.  Locations that do not have lat/long field are new for 2007-2008.  New schools are put into a new file for processing.</procdesc>
+				<procdate>March 2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Access table of new schools is geocoded using Centrus Geocoder for ArcGIS.  All points are checked against 2006 aerial photography.  (In the Eastern 1/2 of the state, the 2007 aerial photography is used.)  Latitude and Longitude coordinates for corrected locations are added to table.</procdesc>
+				<procdate>March 2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>New latitude and longitude points are linked back to Access table of all schools.  Points are displayed in ArcMap using Display XY command.  Data is exported to shape file.</procdesc>
+				<procdate>March 2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>As a quality check,  entire table is geocoded again.  Fields for X and Y coordinates are added to this temporary file using the ArcMap command Calculate Geometry.  Shape file from previous step also has these fields added.  In Access, a table is created that contains the ID, school name and XY coordinates pairs for each.  This resultant table is used to generate a line file using the Hawth's Tools command Add XY Line Data from Table.  Length of these lines are calculated in miles using the ArcMap Calculate Geometry command.  Schools that were more than 1 mile different (between original check at MU in 2004 and regeocoded locations) were verified.  Several points were determined to be incorrect (often high school and junior high locations were reversed).</procdesc>
+				<procdesc>UPDATES FOR 2009 -XLS file from DESE web site is downloaded.  File is imported into Microsoft Access.  School ID is created by concatenating district number and school number.  Fields are added for latitude/longitude and location code.  Latitude and Longitude from previous year's layer is transferred to new file using Access update query.  Locations that do not have lat/long field are new for 2008-2009.  New schools are put into a new file for processing.</procdesc>
+				<procdate>March 2009</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>New facilities for 2009 (there were 29)  were geocoded using the software Centrus Geocoder for ArcGIS.  Positions were photo identified on 2008 aerial photography where possible (see loc_code attribute for level of positional placement).  Latitude, Longitude and Loc_Code were copied and pasted into the missing fields in the working full table of 2009-2010 sites.  Table was then displayed as XY events.  Events were then exported to personal geodatabase.  Spatial join to county boundaries was made to add a column for county name.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata from 2008 was exported to text and updated for 2009.  Metadata in text format was then imported back into the personal geodatabase.  The personal geodatabase was then exported to shape file format. The shape file was copied to M:\GISDATA\Facility.  (The previous year's layer was copied to M:\GISDATA|archiveFacility and renamed schoolPublic08.shp.</procdesc>
+				<procdate>March 2009</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>New facilities for 2009  were geocoded using the software Centrus Geocoder for ArcGIS.  Positions were photo identified on 2007 aerial photography where possible (see loc_code attribute for level of positional placement).  Latitude, Longitude and Loc_Code were copied and pasted into the missing fields in the working full table of 2008-2009 sites.  Table was then displayed as XY events.  Events were then exported to personal geodatabase.  Spatial join to county boundaries was made to add a column for county name.</procdesc>
+				<procdate>March 2010</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata from 2009 was exported to text and updated for 2010.  Metadata in text format was then imported back into the personal geodatabase.  The personal geodatabase was then exported to shape file format. The shape file was copied to M:\GISDATA\Facility.  (The previous year's layer was copied to M:\GISDATA|archiveFacility and renamed schoolPublic09.shp.</procdesc>
+				<procdate>March 2010</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\schlot\LOCALS~1\Temp\xml4C.tmp</srcused>
+				<procdate>20090401</procdate>
+				<proctime>11395700</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\schlot\LOCALS~1\Temp\xmlFD9.tmp</srcused>
+				<procdate>20100308</procdate>
+				<proctime>15042600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>M:\GISADMIN\DataDev\schools\schoolPub0910</srcused>
+				<procdate>20100308</procdate>
+				<proctime>16403800</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>M:\GISDATA\Facility\schoolPublic</srcused>
+				<procdate>20100319</procdate>
+				<proctime>11010100</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused></srcused>
+				<procdate>20101008</procdate>
+				<proctime>10385300</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>M:\2010_projects\NMSZ\WORKING\schoolPublic_mod</srcused>
+				<procdate>20101101</procdate>
+				<proctime>12594900</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\GardnA\LOCALS~1\Temp\xml25.tmp</srcused><procdate Sync="TRUE">20101108</procdate><proctime Sync="TRUE">10313200</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">M:\CERT\2010\Data\schoolPublic</srcused><procdate Sync="TRUE">20101108</procdate><proctime Sync="TRUE">13361800</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="schoolPublic">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">2335</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="schoolPublic"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">2335</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn><utm><utmzone Sync="TRUE">15</utmzone><transmer><sfctrmer Sync="TRUE">0.999600</sfctrmer><longcm Sync="TRUE">-93.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">500000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></utm></gridsys></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_15N</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="schoolPublic">
+			<enttyp>
+				<enttypl Sync="TRUE">schoolPublic</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">2335</enttypc></enttyp>
+			<attr>
+				<attrlabl>SCHID</attrlabl>
+				<attrdef>Used to link school locations with school attendance.  Created by combining the district number and the school number provided by DESE</attrdef>
+				<attrdefs>Missouri Dept of Health and Senior Services</attrdefs>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>CTYDIST</attrlabl>
+				<attrdef>School District number</attrdef>
+				<attrdefs>Department of Elementary and Secondary Education</attrdefs>
+				<attalias Sync="TRUE">CtyDist</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>SCHNUM</attrlabl>
+				<attrdef>School number (numbers assigned per district and are not unique, see SCHID)</attrdef>
+				<attrdefs>Department of Elementary and Secondary Education</attrdefs>
+				<attalias Sync="TRUE">SchNum</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>Facility</attrlabl>
+				<attalias Sync="TRUE">Facility</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>FACILITY</attrlabl>
+				<attrdef>First and last name of Principal, DESE field name - SCHNAME</attrdef>
+				<attrdefs>Missouri Department of Health and Senior Services</attrdefs>
+				<attalias Sync="TRUE">Address</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>ADDRESS</attrlabl>
+				<attrdef>school address, DESE field name - SCHADDR1</attrdef>
+				<attrdefs>Department of Elementary and Secondary Education</attrdefs>
+				<attalias Sync="TRUE">Address2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>ADDRESS2</attrlabl>
+				<attrdef>secondary or supplemental address information,, DESE field name - SCHADDR2</attrdef>
+				<attrdefs>Missouri Department of Elementary and Secondary Education</attrdefs>
+				<attalias Sync="TRUE">City</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>CITY</attrlabl>
+				<attrdef>city where school city is located, DESE field name - SCHCITY</attrdef>
+				<attrdefs>Department of Elementary and Secondary Education</attrdefs>
+				<attalias Sync="TRUE">County</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>County</attrlabl>
+				<attrdef>County where schools is located</attrdef>
+				<attrdefs>Missouri Dept of Health and Senior Services</attrdefs>
+				<attalias Sync="TRUE">State</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>STATE</attrlabl>
+				<attrdef>state where school city is located (all MO for Missouri) - field not found in original DESE school directory</attrdef>
+				<attrdefs>Missouri Dept of Health and Senior Services</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">ZIP</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ZIP</attrlabl>
+				<attrdef>ZIP code where school city is located,, DESE field name - SCHZIP</attrdef>
+				<attrdefs>Department of Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Phone</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>PHONE</attrlabl>
+				<attrdef>Phone number of the school, DESE field name - SCHPHONE</attrdef>
+				<attrdefs>Department of Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FAX</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>FAX</attrlabl>
+				<attrdef>FAX number of the school, DESE field name - SCHFAX</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom></udom>
+				</attrdomv>
+				<attalias Sync="TRUE">BGrade</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>BGRADE</attrlabl>
+				<attrdef>Beginning Grade taught at school</attrdef>
+				<attrdefs>Missouri Department of Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">EGrade</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>EGRADE</attrlabl>
+				<attrdef>Ending Grade taught at school</attrdef>
+				<attrdefs>Missouri Department of Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Principal</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>PRINCIPAL</attrlabl>
+				<attrdef>Full name of the school's principal, concatenated from DESE school directory fields PRINSAL, PRINFN, PRINMI,PRINLN</attrdef>
+				<attrdefs>Missouri Department of Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">PrinTitle</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>PRINTITLE</attrlabl>
+				<attrdef>Title of the Principal,, DESE field name - PRINTITL</attrdef>
+				<attrdefs>Missouri Department of Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Teachers</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>TEACHERS</attrlabl>
+				<attrdef>Total number of teachers, DESE field name - SCHTTEACH</attrdef>
+				<attrdefs>Missouri Department of Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Enrollment</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ENROLLMENT</attrlabl>
+				<attrdef>Total students enrolled, DESE field name - SCHENR</attrdef>
+				<attrdefs>Missouri Department of Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">SchEmail</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SCHEMAIL</attrlabl>
+				<attrdef>School email address</attrdef>
+				<attrdefs>Department Elementary and Secondary Education</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Latitude</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LATITUDE</attrlabl>
+				<attrdef>Latitude in decimal degrees, Coordinates = geographic coordinates NAD 1983</attrdef>
+				<attrdefs>Centrus Geocoder for ArcGIS User Guide - added by DHSS</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Longitude</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LONGITUDE</attrlabl>
+				<attrdef>Longitude in decimal degrees, Coordinates = geographic coordinates NAD 1983</attrdef>
+				<attrdefs>Centrus Geocoder for ArcGIS User Guide - added by DHSS</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Loc_Code</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LOC_CODE</attrlabl>
+				<attrdef>Reports the locational accuracy of the match, includes whether or not an address geocode is achieved.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>CENT</edomv>
+						<edomvd>Location approximated; centrally located in general vicinity i.e. center of town.  Positional accuracy will vary - unable to find location on aerial photograph</edomvd>
+						<edomvds>DHSS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>GEO</edomv>
+						<edomvd>Location based on address matching provided by Centrus Geocoder for ArcGIS.  Location is placed along a particular road segment.</edomvd>
+						<edomvds>DHSS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>MAP_MU</edomv>
+						<edomvd>Location based on existing map features that were previously photo identified using 2004 NAIP aerial photography by staff at Geographic Resource Center at MU.</edomvd>
+						<edomvds>DHSS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>MAP</edomv>
+						<edomvd>Location based on existing map features that were previously photo identified using 2007 NAIP aerial photography by DHSS staff.</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>RPC</edomv>
+						<edomvd>location field verified by local Regional Planning Commission staff</edomvd>
+						<edomvds>SEMA</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">ID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ID</attrlabl>
+				<attrdef>Internal ID number</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">SchID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.972</transize>
+					<dssize Sync="TRUE">0.062</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20101108</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Missouri Dept of Health and Senior Services</cntorg>
+					<cntper>Alexis Gardner</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>930 Wildwood</address>
+					<address>PO Box 570</address>
+					<city>Jefferson City</city>
+					<state>MO</state>
+					<postal>65102-0570</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>573-522-8306</cntvoice>
+				<cntemail>alexis.gardner@oa.mo.gov</cntemail>
+				<hours>M-F 8-5 Central Standard</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20101108</CreaDate><CreaTime>13361800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20101108</SyncDate><SyncTime>13430200</SyncTime><ModDate>20101108</ModDate><ModTime>13430200</ModTime><MetaID>{702EA1C8-CACC-43FA-BB71-9A8C20FA658B}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">schoolPublic</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">286343.655831</westBL><eastBL Sync="TRUE">826422.187915</eastBL><northBL Sync="TRUE">4490536.000484</northBL><southBL Sync="TRUE">3992133.406368</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-95.522797</westBL><eastBL Sync="TRUE">-89.148059</eastBL><northBL Sync="TRUE">40.565597</northBL><southBL Sync="TRUE">36.019052</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\hlgisdata\database\GISDATA\Facility\schoolPublic.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.062</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_UTM_Zone_15N</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="schoolPublic"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">2335</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101108</mdDateSt></metadata>

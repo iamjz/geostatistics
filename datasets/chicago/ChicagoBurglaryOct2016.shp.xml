@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Cartographic Products and Services Branch</origin>
+				<pubdate>201703</pubdate>
+				<title>2016 Cartographic Boundary File, Current Block Group for Illinois, 1:500,000</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>Cartographic Boundary Files</sername>
+					<issue>2016</issue>
+				</serinfo>
+				<onlink>https://www2.census.gov/geo/tiger/GENZ2016/shp/cb_2016_17_bg_500k.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The 2016 cartographic boundary shapefiles are simplified representations of selected geographic areas from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). These boundary files are specifically designed for small-scale thematic mapping. When possible, generalization is performed with the intent to maintain the hierarchical relationships among geographies and to maintain the alignment of geographies within a file set for a given year. Geographic areas may not align with the same areas from another year. Some geographies are available as nation-based files while others are available only as state-based files.
+
+Block Groups (BGs) are clusters of blocks within the same census tract. Each census tract contains at least one BG, and BGs are uniquely numbered within census tracts. BGs have a valid code range of 0 through 9. BGs have the same first digit of their 4-digit census block number from the same decennial census. For example, tabulation blocks numbered 3001, 3002, 3003,.., 3999 within census tract 1210.02 are also within BG 3 within that census tract. BGs coded 0 are intended to only include water area, no land area, and they are generally in territorial seas, coastal water, and Great Lakes water areas. Block groups generally contain  between 600 and 3,000 people. A BG usually covers a contiguous area but never crosses county or census tract boundaries. They may, however, cross the boundaries of other geographic entities like county subdivisions, places, urban areas, voting districts, congressional districts, and American Indian / Alaska Native / Native Hawaiian areas.</abstract>
+			<purpose>These files were specifically created to support small-scale thematic mapping. To improve the appearance of shapes at small scales, areas are represented with fewer vertices than detailed TIGER/Line Shapefiles. Cartographic boundary files take up less disk space than their ungeneralized counterparts. Cartographic boundary files take less time to render on screen than TIGER/Line Shapefiles. You can join this file with table data downloaded from American FactFinder by using the AFFGEOID field in the cartographic boundary file. If detailed boundaries are required, please use the TIGER/Line Shapefiles instead of the generalized cartographic boundary files.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>201703</begdate>
+					<enddate>201703</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned. No changes or updates will be made to this version of the cartographic boundary files. New versions of the cartographic boundary files will be produced on an annual release schedule. Types of geography released may vary from year to year.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-91.513079</westbc>
+				<eastbc>-87.494756</eastbc>
+				<northbc>42.508481</northbc>
+				<southbc>36.970298</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>Boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>2016</themekey>
+				<themekey>SHP</themekey>
+				<themekey>Block Group</themekey>
+				<themekey>Cartographic Boundary</themekey>
+				<themekey>Census Tract</themekey>
+				<themekey>County</themekey>
+				<themekey>Generalized</themekey>
+				<themekey>State</themekey>
+			</theme>
+			<place>
+				<placekt>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States/State Equivalents</placekt>
+				<placekey>Illinois</placekey>
+				<placekey>IL</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The intended display scale for this file is 1:500,000. This file should not be displayed at scales larger than 1:500,000.
+
+These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information is for visual display at appropriate small scales only. Cartographic boundary files should not be used for geographic analysis including area or perimeter calculation. Files should not be used for geocoding addresses. Files should not be used for determining precise geographic area relationships.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Accurate against American National Standards Institute (ANSI) Publication INCITS 446-2008 (Geographic Names Information System (GNIS)) at the 100% level for the codes and base names present in the file. The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+		</attracc>
+		<logic>The Census Bureau performed automated tests to ensure logical consistency of the source database. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. All polygons were tested for closure. The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database. Standard geographic codes, such as INCITS (formerly FIPS) codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities. The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files. Feature attribute information has been examined but has not been fully tested for consistency.
+
+For the cartographic boundary files, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the file's data table. For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature. Cartographic Boundary File multi-polygons are an exception to the G-polygon object type classification. Therefore, when multi-polygons exist in a file, the object count will be less than the actual number of G-polygons.</logic>
+		<complete>The cartographic boundary files are generalized representations of extracts taken from the MAF/TIGER Database. Generalized boundary files are clipped to a simplified version of the U.S. outline. As a result, some off-shore areas may be excluded from the generalized files. Some small geographic areas, holes, or discontiguous parts of areas may not be included in generalized files if they are not visible at the target scale.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data are not accurate. Data are generalized representations of geographic boundaries at 1:500,000.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</origin>
+						<pubdate>Unpublished material</pubdate>
+						<title>Census MAF/TIGER database</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>Geo-spatial Relational Database</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>201506</begdate>
+							<enddate>201605</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>The dates describe the effective date of 2016 cartographic boundaries.</srccurr>
+				</srctime>
+				<srccitea>MAF/TIGER</srccitea>
+				<srccontr>All spatial and feature data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Spatial data were extracted from the MAF/TIGER database and processed through a U.S. Census Bureau batch generalization system.</procdesc>
+				<srcused>MAF/TIGER</srcused>
+				<procdate>201703</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>INCITS (formerly FIPS) codes</indspref>
+		<direct>Vector</direct>
+		<ptvctinf><esriterm Name="ChicagoBurglaryOct2016"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="ChicagoBurglaryOct2016">
+			<enttyp>
+				<enttypl>cb_2016_17_bg_500k.shp</enttypl>
+				<enttypd>Current Block Group (state-based)</enttypd>
+				<enttypds>U.S. Census Bureau</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Join_Count</attrlabl><attalias Sync="TRUE">Join_Count</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TARGET_FID</attrlabl><attalias Sync="TRUE">TARGET_FID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>STATEFP</attrlabl>
+				<attrdef>Current state Federal Information Processing Series (FIPS) code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States/State Equivalents</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">STATEFP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>COUNTYFP</attrlabl>
+				<attrdef>Current county Federal Information Processing Series (FIPS) code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing Series (FIPS) - Counties/County Equivalents</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">COUNTYFP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>TRACTCE</attrlabl>
+				<attrdef>Current census tract code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>000000</edomv>
+						<edomvd>Water tract in some coastal and Great Lakes water and territorial sea</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>000100 to 998999</edomv>
+						<edomvd>Census tract number</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">TRACTCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>BLKGRPCE</attrlabl>
+				<attrdef>Current block group number. A block group number of 0 represents a water block group.</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>9</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">BLKGRPCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>AFFGEOID</attrlabl>
+				<attrdef>American FactFinder summary level code + geovariant code + '00US' + GEOID</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>American FactFinder geographic identifier</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">AFFGEOID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">21</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>GEOID</attrlabl>
+				<attrdef>Census block group identifier; a concatenation of the current state Federal Information Processing Series (FIPS) code, county FIPS code, census tract code, and block group number</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>The GEOID attribute is a concatenation of the state FIPS code, followed by the county FIPS code, followed by the census tract code, followed by the block group number. No spaces are allowed between the two codes. The state FIPS code is taken from "National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States". The county FIPS code is taken from "National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing Series (FIPS) - Counties/County Equivalents". The census tract code is taken from the "TRACTCE" attribute. The block group number is taken from the "BLKGRPCE" attribute.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">GEOID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Current block group number. A block group number of 0 represents a water block group.</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>Refer to the block group number that appears in BLKGRPCE.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LSAD</attrlabl>
+				<attrdef>Current legal/statistical area description code for Census block group</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>BG</edomv>
+						<edomvd>Block Group (prefix)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">LSAD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ALAND</attrlabl>
+				<attrdef>Current land area (square meters)</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>9,999,999,999,999</rdommax>
+						<attrunit>square meters</attrunit>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">ALAND</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>AWATER</attrlabl>
+				<attrdef>Current water area (square meters)</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>9,999,999,999,999</rdommax>
+						<attrunit>square meters</attrunit>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">AWATER</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">CASE_</attrlabl><attalias Sync="TRUE">CASE_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DATE__OF_O</attrlabl><attalias Sync="TRUE">DATE__OF_O</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">BLOCK</attrlabl><attalias Sync="TRUE">BLOCK</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">IUCR</attrlabl><attalias Sync="TRUE">IUCR</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PRIMARY_DE</attrlabl><attalias Sync="TRUE">PRIMARY_DE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SECONDARY</attrlabl><attalias Sync="TRUE">SECONDARY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LOCATION_D</attrlabl><attalias Sync="TRUE">LOCATION_D</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ARREST</attrlabl><attalias Sync="TRUE">ARREST</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DOMESTIC</attrlabl><attalias Sync="TRUE">DOMESTIC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">BEAT</attrlabl><attalias Sync="TRUE">BEAT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WARD</attrlabl><attalias Sync="TRUE">WARD</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FBI_CD</attrlabl><attalias Sync="TRUE">FBI_CD</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data. The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files. The boundary information is for small-scale mapping purposes only; boundary depiction and designation for small-scale mapping purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>SHP</formname>
+					<filedec>PK-ZIP, version 1.93A or higher</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>https://www2.census.gov/geo/tiger/GENZ2016/shp/cb_2016_17_bg_500k.zip</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>The online cartographic boundary files may be downloaded without charge.</fees>
+			<ordering>To obtain more information about ordering Cartographic Boundary Files visit https://www.census.gov/geo/www/tiger.</ordering>
+		</stdorder>
+		<techpreq>The cartographic boundary files contain geographic data only and do not include display mapping software or statistical data. For information on how to use cartographic boundary file data with specific software package users shall contact the company that produced the software.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>201703</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><CreaDate>20171009</CreaDate><CreaTime>13562000</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>FALSE</SyncOnce><DataProperties><itemProps><itemName Sync="TRUE">ChicagoBurglaryOct2016</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\AS-MATE7440\C$\Users\matisziwt\Dropbox\Courses\DataScience\datasets\chicago\ChicagoBurglaryOct2016.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1983_UTM_Zone_16N</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.5'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_16N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-87.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26916]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26916&lt;/WKID&gt;&lt;LatestWKID&gt;26916&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Analysis Tools.tbx\SpatialJoin" Date="20171009" Time="141156">SpatialJoin IllinoisBlockGroups ChicagoCrimeOct2016 C:\Users\matisziwt\Dropbox\Courses\DataScience\datasets\chicago\ChicagoBurglaryOct2016.shp JOIN_ONE_TO_ONE KEEP_ALL "STATEFP "STATEFP" true true false 2 Text 0 0 ,First,#,IllinoisBlockGroups,STATEFP,-1,-1;COUNTYFP "COUNTYFP" true true false 3 Text 0 0 ,First,#,IllinoisBlockGroups,COUNTYFP,-1,-1;TRACTCE "TRACTCE" true true false 6 Text 0 0 ,First,#,IllinoisBlockGroups,TRACTCE,-1,-1;BLKGRPCE "BLKGRPCE" true true false 1 Text 0 0 ,First,#,IllinoisBlockGroups,BLKGRPCE,-1,-1;AFFGEOID "AFFGEOID" true true false 21 Text 0 0 ,First,#,IllinoisBlockGroups,AFFGEOID,-1,-1;GEOID "GEOID" true true false 12 Text 0 0 ,First,#,IllinoisBlockGroups,GEOID,-1,-1;NAME "NAME" true true false 100 Text 0 0 ,First,#,IllinoisBlockGroups,NAME,-1,-1;LSAD "LSAD" true true false 2 Text 0 0 ,First,#,IllinoisBlockGroups,LSAD,-1,-1;ALAND "ALAND" true true false 19 Double 0 0 ,First,#,IllinoisBlockGroups,ALAND,-1,-1;AWATER "AWATER" true true false 19 Double 0 0 ,First,#,IllinoisBlockGroups,AWATER,-1,-1;CASE_ "CASE_" true true false 254 Text 0 0 ,First,#,ChicagoCrimeOct2016,CASE_,-1,-1;DATE__OF_O "DATE__OF_O" true true false 8 Date 0 0 ,First,#,ChicagoCrimeOct2016,DATE__OF_O,-1,-1;BLOCK "BLOCK" true true false 254 Text 0 0 ,First,#,ChicagoCrimeOct2016,BLOCK,-1,-1;IUCR "IUCR" true true false 10 Long 0 10 ,First,#,ChicagoCrimeOct2016,IUCR,-1,-1;PRIMARY_DE "PRIMARY_DE" true true false 254 Text 0 0 ,First,#,ChicagoCrimeOct2016,PRIMARY_DE,-1,-1;SECONDARY "SECONDARY" true true false 254 Text 0 0 ,First,#,ChicagoCrimeOct2016,SECONDARY,-1,-1;LOCATION_D "LOCATION_D" true true false 254 Text 0 0 ,First,#,ChicagoCrimeOct2016,LOCATION_D,-1,-1;ARREST "ARREST" true true false 254 Text 0 0 ,First,#,ChicagoCrimeOct2016,ARREST,-1,-1;DOMESTIC "DOMESTIC" true true false 254 Text 0 0 ,First,#,ChicagoCrimeOct2016,DOMESTIC,-1,-1;BEAT "BEAT" true true false 10 Long 0 10 ,First,#,ChicagoCrimeOct2016,BEAT,-1,-1;WARD "WARD" true true false 10 Long 0 10 ,First,#,ChicagoCrimeOct2016,WARD,-1,-1;FBI_CD "FBI_CD" true true false 10 Long 0 10 ,First,#,ChicagoCrimeOct2016,FBI_CD,-1,-1" INTERSECT # #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171009" Time="141240">CalculateField ChicagoBurglaryOct2016 Burglaries [Join_Count] VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20171009" Time="141301">DeleteField ChicagoBurglaryOct2016 Join_Count;CASE_;DATE__OF_O;BLOCK;IUCR;PRIMARY_DE;SECONDARY;LOCATION_D;ARREST;DOMESTIC;BEAT;WARD;FBI_CD</Process></lineage></DataProperties><SyncDate>20171009</SyncDate><SyncTime>14114100</SyncTime><ModDate>20171009</ModDate><ModTime>14114100</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">ChicagoBurglaryOct2016</resTitle><presForm><PresFormCd value="005" Sync="TRUE"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd value="001" Sync="TRUE"></SpatRepTypCd></spatRpType></dataIdInfo><mdLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdChar><CharSetCd value="004" Sync="TRUE"></CharSetCd></mdChar><distInfo><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><mdHrLv><ScopeCd value="005" Sync="TRUE"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="26916" Sync="TRUE"></identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">6.13(3.0.1)</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="ChicagoBurglaryOct2016"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20171009</mdDateSt></metadata>
